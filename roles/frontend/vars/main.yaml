@@ -1,0 +1,6 @@
+CATALOGUE_HOST: catalogue.nandu.sbs 
+CART_HOST: cart.nandu.sbs
+USER_HOST: user.nandu.sbs
+MYSQL_HOST: mysql.nandu.sbs 
+SHIPPING_HOST: shipping.nandu.sbs
+PAYMENT_HOST: payment.nandu.sbs  
