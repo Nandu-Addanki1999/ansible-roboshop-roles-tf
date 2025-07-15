@@ -1,1 +1,1 @@
-MONGODB_HOST: mongodb.nandu.sbs 
+MONGODB_HOST: "mongodb-{{ env }}.nandu.sbs"  
