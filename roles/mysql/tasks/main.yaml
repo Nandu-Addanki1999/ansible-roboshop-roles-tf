@@ -19,4 +19,3 @@
 
 - name: setp root password
   ansible.builtin.command: mysql_secure_installation --set-root-pass {{ MYSQL_ROOT_PASSWORD }}
-  
