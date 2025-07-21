@@ -1,2 +1,2 @@
-CATALOGUE_HOST: catalogue.nandu.sbs
-REDIS_HOST: redis.nandu.sbs 
+CATALOGUE_HOST: catalogue.backend-{{ env }}.nandu.sbs
+REDIS_HOST: redis-{{ env }}.nandu.sbs 

@@ -1,2 +1,2 @@
-REDIS_HOST: redis.nandu.sbs
-MONGODB_HOST: mongodb.nandu.sbs
+REDIS_HOST: redis-{{ env }}.nandu.sbs
+MONGODB_HOST: mongodb-{{ env }}.nandu.sbs

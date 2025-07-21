@@ -1,5 +1,5 @@
-CART_HOST: cart.nandu.sbs
-USER_HOST: user.nandu.sbs
-RABBITMQ_HOST: rabbitmq.nandu.sbs
+CART_HOST: cart.backend-{{ env }}.nandu.sbs
+USER_HOST: user.backend-{{ env }}.nandu.sbs
+RABBITMQ_HOST: rabbitmq-{{ env }}.nandu.sbs
 RABBITMQ_USER: roboshop
 RABBITMQ_PASSWORD: roboshop123
