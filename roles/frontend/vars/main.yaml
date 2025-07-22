@@ -1,6 +1,5 @@
-CATALOGUE_HOST: catalogue.nandu.sbs 
-CART_HOST: cart.nandu.sbs
-USER_HOST: user.nandu.sbs
-MYSQL_HOST: mysql.nandu.sbs 
-SHIPPING_HOST: shipping.nandu.sbs
-PAYMENT_HOST: payment.nandu.sbs  
+CATALOGUE_HOST: catalogue.backend-{{ env }}.nandu.sbs 
+CART_HOST: cart.backend-{{ env }}.nandu.sbs
+USER_HOST: user.backend-{{ env }}.nandu.sbs 
+SHIPPING_HOST: shipping.backend-{{ env }}.nandu.sbs
+PAYMENT_HOST: payment.backend-{{ env }}.nandu.sbs  
